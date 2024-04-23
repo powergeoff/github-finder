@@ -2,10 +2,10 @@ import { User } from "../../models/Users";
 
 export interface IGithubState {
   users?: User[];
-  loading?: boolean;
+  total?: number;
 }
 
 export const githubInitialState: IGithubState = {
   users: [],
-  loading: false,
+  total: 0,
 };

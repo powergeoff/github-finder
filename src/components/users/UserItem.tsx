@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { User } from "../../models/Users";
+import { User } from "../../models/User";
 
 interface Props {
     user: User;
